@@ -1,0 +1,38 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+}
+#case-prin{
+width:1016px;
+height:880px;
+}
+#case-verticale{
+width:160px;
+float:left;
+}
+#case-verticale p{
+margin:0px;
+padding-top:1px;
+}
+#case-horaire{
+width:160px;
+border-bottom:1px solid lightgray;
+text-align:center;
+height:100px;
+}
+#case-horaire:hover{
+background-color:lightgray;
+}
+#case-horaire.heure{
+background-color:white;
+}
+#case-horaire.color{
+background-color:lightgray;
+}
+#case-horaire.color:hover{
+background-color:white;
+}
+#case-horaire.pausemidi{
+height:30px;
+background-color:lightgray;
+width:150*6px;
+}
